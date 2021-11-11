@@ -101,6 +101,16 @@ public class CompSci_Test2 {
         Array Methods
             - .length;
                 - array.length;
+                
+        Math.random()
+            - Math.random()*(range-1)+/-(min);
+            - System.out.println(Math.random()*(11)+5);
+        
+        Modular Division
+            - int % int = remainder;
+            - int num = 4300;
+            - num = num % 5;
+            - num = 0;
         
         Math Functions
             - Math.round()
