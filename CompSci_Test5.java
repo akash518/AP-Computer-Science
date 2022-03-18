@@ -28,13 +28,13 @@ public class CompSci_Test5 {
             int mid = (right + left) / 2;
             while (right >= left) {
                 mid = (right + left) / 2;
-                if (array[i] == num) {
+                if (array[mid] == num) {
                     return i;
                 }
-                else if (a[i] > num) {
+                else if (a[mid] > num) {
                     right = mid-1;
                 }
-                else if (a[i] < num) {
+                else if (a[mid] < num) {
                     left = mid+1;
                 }
             }
